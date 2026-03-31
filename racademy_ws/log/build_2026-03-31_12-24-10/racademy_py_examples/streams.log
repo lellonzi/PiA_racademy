@@ -1,0 +1,17 @@
+[0.316s] Invoking command in '/github/racademy_ws/build/racademy_py_examples': PYTHONPATH=/github/racademy_ws/build/racademy_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/github/racademy_ws/install/racademy_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /github/racademy_ws/build/racademy_py_examples/build --no-deps symlink_data
+[0.433s] running develop
+[0.506s] running egg_info
+[0.506s] writing racademy_py_examples.egg-info/PKG-INFO
+[0.507s] writing dependency_links to racademy_py_examples.egg-info/dependency_links.txt
+[0.507s] writing entry points to racademy_py_examples.egg-info/entry_points.txt
+[0.508s] writing requirements to racademy_py_examples.egg-info/requires.txt
+[0.508s] writing top-level names to racademy_py_examples.egg-info/top_level.txt
+[0.510s] reading manifest file 'racademy_py_examples.egg-info/SOURCES.txt'
+[0.512s] writing manifest file 'racademy_py_examples.egg-info/SOURCES.txt'
+[0.512s] running build_ext
+[0.512s] Creating /github/racademy_ws/install/racademy_py_examples/lib/python3.10/site-packages/racademy-py-examples.egg-link (link to .)
+[0.513s] Installing simple_publisher script to /github/racademy_ws/install/racademy_py_examples/lib/racademy_py_examples
+[0.513s] 
+[0.514s] Installed /github/racademy_ws/build/racademy_py_examples
+[0.516s] running symlink_data
+[0.529s] Invoked command in '/github/racademy_ws/build/racademy_py_examples' returned '0': PYTHONPATH=/github/racademy_ws/build/racademy_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/github/racademy_ws/install/racademy_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /github/racademy_ws/build/racademy_py_examples/build --no-deps symlink_data

@@ -1,0 +1,42 @@
+[0.013s] Invoking command in '/github/racademy_ws/build/racademy_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /github/racademy_ws/src/racademy_cpp_examples -DCMAKE_INSTALL_PREFIX=/github/racademy_ws/install/racademy_cpp_examples
+[0.113s] -- The C compiler identification is GNU 11.4.0
+[0.195s] -- The CXX compiler identification is GNU 11.4.0
+[0.206s] -- Detecting C compiler ABI info
+[0.260s] -- Detecting C compiler ABI info - done
+[0.265s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.266s] -- Detecting C compile features
+[0.266s] -- Detecting C compile features - done
+[0.270s] -- Detecting CXX compiler ABI info
+[0.331s] -- Detecting CXX compiler ABI info - done
+[0.338s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.339s] -- Detecting CXX compile features
+[0.339s] -- Detecting CXX compile features - done
+[0.344s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.428s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.489s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.551s] -- Added test 'lint_cmake' to check CMake code style
+[0.556s] -- Added test 'xmllint' to check XML markup files
+[0.562s] -- Configuring done
+[0.573s] -- Generating done
+[0.582s] -- Build files have been written to: /github/racademy_ws/build/racademy_cpp_examples
+[0.584s] Invoked command in '/github/racademy_ws/build/racademy_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /github/racademy_ws/src/racademy_cpp_examples -DCMAKE_INSTALL_PREFIX=/github/racademy_ws/install/racademy_cpp_examples
+[0.586s] Invoking command in '/github/racademy_ws/build/racademy_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /github/racademy_ws/build/racademy_cpp_examples -- -j8 -l8
+[0.612s] Invoked command in '/github/racademy_ws/build/racademy_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /github/racademy_ws/build/racademy_cpp_examples -- -j8 -l8
+[0.618s] Invoking command in '/github/racademy_ws/build/racademy_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /github/racademy_ws/build/racademy_cpp_examples
+[0.622s] -- Install configuration: ""
+[0.623s] -- Installing: /github/racademy_ws/install/racademy_cpp_examples/share/ament_index/resource_index/package_run_dependencies/racademy_cpp_examples
+[0.624s] -- Installing: /github/racademy_ws/install/racademy_cpp_examples/share/ament_index/resource_index/parent_prefix_path/racademy_cpp_examples
+[0.625s] -- Installing: /github/racademy_ws/install/racademy_cpp_examples/share/racademy_cpp_examples/environment/ament_prefix_path.sh
+[0.628s] -- Installing: /github/racademy_ws/install/racademy_cpp_examples/share/racademy_cpp_examples/environment/ament_prefix_path.dsv
+[0.628s] -- Installing: /github/racademy_ws/install/racademy_cpp_examples/share/racademy_cpp_examples/environment/path.sh
+[0.629s] -- Installing: /github/racademy_ws/install/racademy_cpp_examples/share/racademy_cpp_examples/environment/path.dsv
+[0.631s] -- Installing: /github/racademy_ws/install/racademy_cpp_examples/share/racademy_cpp_examples/local_setup.bash
+[0.632s] -- Installing: /github/racademy_ws/install/racademy_cpp_examples/share/racademy_cpp_examples/local_setup.sh
+[0.633s] -- Installing: /github/racademy_ws/install/racademy_cpp_examples/share/racademy_cpp_examples/local_setup.zsh
+[0.634s] -- Installing: /github/racademy_ws/install/racademy_cpp_examples/share/racademy_cpp_examples/local_setup.dsv
+[0.635s] -- Installing: /github/racademy_ws/install/racademy_cpp_examples/share/racademy_cpp_examples/package.dsv
+[0.637s] -- Installing: /github/racademy_ws/install/racademy_cpp_examples/share/ament_index/resource_index/packages/racademy_cpp_examples
+[0.638s] -- Installing: /github/racademy_ws/install/racademy_cpp_examples/share/racademy_cpp_examples/cmake/racademy_cpp_examplesConfig.cmake
+[0.639s] -- Installing: /github/racademy_ws/install/racademy_cpp_examples/share/racademy_cpp_examples/cmake/racademy_cpp_examplesConfig-version.cmake
+[0.640s] -- Installing: /github/racademy_ws/install/racademy_cpp_examples/share/racademy_cpp_examples/package.xml
+[0.642s] Invoked command in '/github/racademy_ws/build/racademy_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /github/racademy_ws/build/racademy_cpp_examples

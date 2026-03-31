@@ -1,0 +1,18 @@
+[0.309s] Invoking command in '/github/racademy_ws/build/racademy_py_examples': PYTHONPATH=/github/racademy_ws/build/racademy_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/github/racademy_ws/install/racademy_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /github/racademy_ws/build/racademy_py_examples/build --no-deps symlink_data
+[0.463s] running develop
+[0.535s] running egg_info
+[0.535s] writing racademy_py_examples.egg-info/PKG-INFO
+[0.535s] writing dependency_links to racademy_py_examples.egg-info/dependency_links.txt
+[0.536s] writing entry points to racademy_py_examples.egg-info/entry_points.txt
+[0.536s] writing requirements to racademy_py_examples.egg-info/requires.txt
+[0.536s] writing top-level names to racademy_py_examples.egg-info/top_level.txt
+[0.539s] reading manifest file 'racademy_py_examples.egg-info/SOURCES.txt'
+[0.540s] writing manifest file 'racademy_py_examples.egg-info/SOURCES.txt'
+[0.541s] running build_ext
+[0.541s] Creating /github/racademy_ws/install/racademy_py_examples/lib/python3.10/site-packages/racademy-py-examples.egg-link (link to .)
+[0.542s] Installing simple_publisher script to /github/racademy_ws/install/racademy_py_examples/lib/racademy_py_examples
+[0.543s] Installing simple_subscriber script to /github/racademy_ws/install/racademy_py_examples/lib/racademy_py_examples
+[0.544s] 
+[0.544s] Installed /github/racademy_ws/build/racademy_py_examples
+[0.544s] running symlink_data
+[0.559s] Invoked command in '/github/racademy_ws/build/racademy_py_examples' returned '0': PYTHONPATH=/github/racademy_ws/build/racademy_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/github/racademy_ws/install/racademy_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /github/racademy_ws/build/racademy_py_examples/build --no-deps symlink_data

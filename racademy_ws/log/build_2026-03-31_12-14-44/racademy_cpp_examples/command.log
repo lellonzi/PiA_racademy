@@ -1,0 +1,6 @@
+Invoking command in '/github/racademy_ws/build/racademy_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /github/racademy_ws/src/racademy_cpp_examples -DCMAKE_INSTALL_PREFIX=/github/racademy_ws/install/racademy_cpp_examples
+Invoked command in '/github/racademy_ws/build/racademy_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /github/racademy_ws/src/racademy_cpp_examples -DCMAKE_INSTALL_PREFIX=/github/racademy_ws/install/racademy_cpp_examples
+Invoking command in '/github/racademy_ws/build/racademy_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /github/racademy_ws/build/racademy_cpp_examples -- -j8 -l8
+Invoked command in '/github/racademy_ws/build/racademy_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /github/racademy_ws/build/racademy_cpp_examples -- -j8 -l8
+Invoking command in '/github/racademy_ws/build/racademy_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /github/racademy_ws/build/racademy_cpp_examples
+Invoked command in '/github/racademy_ws/build/racademy_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /github/racademy_ws/build/racademy_cpp_examples

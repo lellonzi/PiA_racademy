@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""A minimal ROS 2 subscriber that prints every String it receives on /chatter."""
+"""A minimal ROS 2 subscriber that prints every String it receives on /chatter."""
 
 import rclpy
 from rclpy.node import Node
@@ -12,7 +12,7 @@ class SimpleSubscriber(Node):
     def __init__(self) -> None:
         super().__init__("simple_subscriber")
 
-        # 1 Create the subscription
+        # 1 Create the subscription
         self.subscriber = self.create_subscription(
             String,                  # Message type
             "chatter",              # Topic name
@@ -20,10 +20,10 @@ class SimpleSubscriber(Node):
             10                       # Queue size
         )
 
-        # 2 Prevent unused‑variable warning (only needed in C++)
+        # 2 Prevent unused‑variable warning (only needed in C++)
         self.subscriber  # noqa: F841
 
-    # 3 Callback function
+    # 3 Callback function
     def message_callback(self, msg: String) -> None:
         self.get_logger().info(f"I heard: {msg.data}")
 

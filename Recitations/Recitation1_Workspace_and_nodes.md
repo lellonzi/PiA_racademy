@@ -36,7 +36,7 @@ now you are inside the docker container
 
 ```bash
 # 1. Move to a convenient parent directory (adjust to taste)
-$ cd github/<your_ros_ws>
+$ cd github/<your_ros_ws>ls
 
 # 2. Create the workspace and its source folder
 $ mkdir -p racademy_ws/src
