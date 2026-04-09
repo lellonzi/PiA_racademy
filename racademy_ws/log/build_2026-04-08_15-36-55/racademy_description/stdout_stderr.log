@@ -1,0 +1,26 @@
+-- Install configuration: ""
+-- Up-to-date: /github/racademy_ws/install/racademy_description/share/racademy_description/meshes
+-- Installing: /github/racademy_ws/install/racademy_description/share/racademy_description/meshes/duckiebot_frame_only.dae
+-- Installing: /github/racademy_ws/install/racademy_description/share/racademy_description/meshes/duckiebot_rightwheel.dae
+-- Installing: /github/racademy_ws/install/racademy_description/share/racademy_description/meshes/duckiebot_computer.dae
+-- Installing: /github/racademy_ws/install/racademy_description/share/racademy_description/meshes/duckiebotFrame.dae
+-- Installing: /github/racademy_ws/install/racademy_description/share/racademy_description/meshes/duckiebot_leftwheel.dae
+-- Installing: /github/racademy_ws/install/racademy_description/share/racademy_description/meshes/duckiebot_camera.dae
+-- Installing: /github/racademy_ws/install/racademy_description/share/racademy_description/meshes/duckiebot_frame_full.dae
+-- Up-to-date: /github/racademy_ws/install/racademy_description/share/racademy_description/urdf
+-- Up-to-date: /github/racademy_ws/install/racademy_description/share/racademy_description/urdf/racademy.urdf.xacro
+-- Up-to-date: /github/racademy_ws/install/racademy_description/share/ament_index/resource_index/package_run_dependencies/racademy_description
+-- Up-to-date: /github/racademy_ws/install/racademy_description/share/ament_index/resource_index/parent_prefix_path/racademy_description
+-- Up-to-date: /github/racademy_ws/install/racademy_description/share/racademy_description/environment/ament_prefix_path.sh
+-- Up-to-date: /github/racademy_ws/install/racademy_description/share/racademy_description/environment/ament_prefix_path.dsv
+-- Up-to-date: /github/racademy_ws/install/racademy_description/share/racademy_description/environment/path.sh
+-- Up-to-date: /github/racademy_ws/install/racademy_description/share/racademy_description/environment/path.dsv
+-- Up-to-date: /github/racademy_ws/install/racademy_description/share/racademy_description/local_setup.bash
+-- Up-to-date: /github/racademy_ws/install/racademy_description/share/racademy_description/local_setup.sh
+-- Up-to-date: /github/racademy_ws/install/racademy_description/share/racademy_description/local_setup.zsh
+-- Up-to-date: /github/racademy_ws/install/racademy_description/share/racademy_description/local_setup.dsv
+-- Installing: /github/racademy_ws/install/racademy_description/share/racademy_description/package.dsv
+-- Up-to-date: /github/racademy_ws/install/racademy_description/share/ament_index/resource_index/packages/racademy_description
+-- Up-to-date: /github/racademy_ws/install/racademy_description/share/racademy_description/cmake/racademy_descriptionConfig.cmake
+-- Up-to-date: /github/racademy_ws/install/racademy_description/share/racademy_description/cmake/racademy_descriptionConfig-version.cmake
+-- Up-to-date: /github/racademy_ws/install/racademy_description/share/racademy_description/package.xml

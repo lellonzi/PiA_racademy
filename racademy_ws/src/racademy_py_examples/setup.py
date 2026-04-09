@@ -26,6 +26,7 @@ setup(
     "console_scripts": [
         "simple_publisher  = racademy_py_examples.simple_publisher:main",
         "simple_subscriber = racademy_py_examples.simple_subscriber:main",
+        "simple_parameter  = racademy_py_examples.simple_parameter:main",
     ],
 },
 )

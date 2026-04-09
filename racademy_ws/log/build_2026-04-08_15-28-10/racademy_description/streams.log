@@ -1,0 +1,23 @@
+[0.021s] Invoking command in '/github/racademy_ws/build/racademy_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/github/racademy_ws/install/racademy_py_examples:/opt/ros/humble /usr/bin/cmake --build /github/racademy_ws/build/racademy_description -- -j8 -l8
+[0.150s] Invoked command in '/github/racademy_ws/build/racademy_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/github/racademy_ws/install/racademy_py_examples:/opt/ros/humble /usr/bin/cmake --build /github/racademy_ws/build/racademy_description -- -j8 -l8
+[0.156s] Invoking command in '/github/racademy_ws/build/racademy_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/github/racademy_ws/install/racademy_py_examples:/opt/ros/humble /usr/bin/cmake --install /github/racademy_ws/build/racademy_description
+[0.160s] -- Install configuration: ""
+[0.162s] -- Up-to-date: /github/racademy_ws/install/racademy_description/share/racademy_description/meshes
+[0.162s] -- Up-to-date: /github/racademy_ws/install/racademy_description/share/racademy_description/urdf
+[0.163s] -- Installing: /github/racademy_ws/install/racademy_description/share/racademy_description/urdf/racademy.urdf.xacro
+[0.164s] -- Up-to-date: /github/racademy_ws/install/racademy_description/share/ament_index/resource_index/package_run_dependencies/racademy_description
+[0.165s] -- Up-to-date: /github/racademy_ws/install/racademy_description/share/ament_index/resource_index/parent_prefix_path/racademy_description
+[0.165s] -- Up-to-date: /github/racademy_ws/install/racademy_description/share/racademy_description/environment/ament_prefix_path.sh
+[0.165s] -- Up-to-date: /github/racademy_ws/install/racademy_description/share/racademy_description/environment/ament_prefix_path.dsv
+[0.166s] -- Up-to-date: /github/racademy_ws/install/racademy_description/share/racademy_description/environment/path.sh
+[0.166s] -- Up-to-date: /github/racademy_ws/install/racademy_description/share/racademy_description/environment/path.dsv
+[0.167s] -- Up-to-date: /github/racademy_ws/install/racademy_description/share/racademy_description/local_setup.bash
+[0.168s] -- Up-to-date: /github/racademy_ws/install/racademy_description/share/racademy_description/local_setup.sh
+[0.168s] -- Up-to-date: /github/racademy_ws/install/racademy_description/share/racademy_description/local_setup.zsh
+[0.170s] -- Up-to-date: /github/racademy_ws/install/racademy_description/share/racademy_description/local_setup.dsv
+[0.171s] -- Up-to-date: /github/racademy_ws/install/racademy_description/share/racademy_description/package.dsv
+[0.172s] -- Up-to-date: /github/racademy_ws/install/racademy_description/share/ament_index/resource_index/packages/racademy_description
+[0.173s] -- Up-to-date: /github/racademy_ws/install/racademy_description/share/racademy_description/cmake/racademy_descriptionConfig.cmake
+[0.173s] -- Up-to-date: /github/racademy_ws/install/racademy_description/share/racademy_description/cmake/racademy_descriptionConfig-version.cmake
+[0.177s] -- Up-to-date: /github/racademy_ws/install/racademy_description/share/racademy_description/package.xml
+[0.178s] Invoked command in '/github/racademy_ws/build/racademy_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/github/racademy_ws/install/racademy_py_examples:/opt/ros/humble /usr/bin/cmake --install /github/racademy_ws/build/racademy_description

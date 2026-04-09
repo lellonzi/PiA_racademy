@@ -1,0 +1,9 @@
+/github/racademy_ws/build/racademy_description/CMakeFiles/uninstall.dir
+/github/racademy_ws/build/racademy_description/CMakeFiles/racademy_description_uninstall.dir
+/github/racademy_ws/build/racademy_description/CMakeFiles/test.dir
+/github/racademy_ws/build/racademy_description/CMakeFiles/edit_cache.dir
+/github/racademy_ws/build/racademy_description/CMakeFiles/rebuild_cache.dir
+/github/racademy_ws/build/racademy_description/CMakeFiles/list_install_components.dir
+/github/racademy_ws/build/racademy_description/CMakeFiles/install.dir
+/github/racademy_ws/build/racademy_description/CMakeFiles/install/local.dir
+/github/racademy_ws/build/racademy_description/CMakeFiles/install/strip.dir

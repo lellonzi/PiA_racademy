@@ -1,0 +1,122 @@
+<?xml version="1.0"?>                                         <!--  1 -->
+
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="racademy">            <!--  2 -->
+
+  <xacro:property name="wheel_offset_y" value="0.07"/>        <!--  3 -->
+  <xacro:property name="base_height" value="0.033"/>          <!--  4 -->
+
+  <!--  A.  Base frames  -->
+  <link name="base_footprint"/>                               <!--  5 -->
+
+  <link name="base_link">                                     <!--  6 -->
+    <visual>                                                  <!--  7 -->
+      <origin xyz="0 0 0" rpy="0 0 0"/>                      <!--  8 -->
+      <geometry>                                              <!--  9 -->
+        <mesh filename="package://racademy_description/meshes/duckiebotFrame.dae"/><!-- 10 -->
+      </geometry>
+    </visual>
+    <collision>                                               <!-- 11 -->
+      <origin xyz="0 0 0" rpy="0 0 0"/>                      <!-- 12 -->
+      <geometry>                                              <!-- 13 -->
+        <mesh filename="package://racademy_description/meshes/duckiebotFrame.dae"/><!-- 14 -->
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="base_joint" type="fixed">                      <!-- 15 -->
+    <parent link="base_footprint"/>                           <!-- 16 -->
+    <child  link="base_link"/>                                <!-- 17 -->
+    <origin xyz="0 0 ${base_height}" rpy="0 0 0"/>           <!-- 18 -->
+  </joint>
+
+  <!--  B.  Left wheel  -->
+  <link name="left_wheel_link">                               <!-- 19 -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>                      <!-- 20 -->
+      <geometry>
+        <mesh filename="package://racademy_description/meshes/duckiebot_leftwheel.dae"/><!-- 21 -->
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>                      <!-- 22 -->
+      <geometry>
+        <mesh filename="package://racademy_description/meshes/duckiebot_leftwheel.dae"/><!-- 23 -->
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="left_wheel_joint" type="continuous">           <!-- 24 -->
+    <origin xyz="0 ${wheel_offset_y} 0" rpy="0 0 0"/>        <!-- 25 -->
+    <parent link="base_link"/>                                <!-- 26 -->
+    <child  link="left_wheel_link"/>                          <!-- 27 -->
+    <axis xyz="0 1 0"/>                                       <!-- 28 -->
+  </joint>
+
+  <!--  C.  Right wheel  -->
+  <link name="right_wheel_link">                              <!-- 29 -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>                      <!-- 30 -->
+      <geometry>
+        <mesh filename="package://racademy_description/meshes/duckiebot_rightwheel.dae"/><!-- 31 -->
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>                      <!-- 32 -->
+      <geometry>
+        <mesh filename="package://racademy_description/meshes/duckiebot_rightwheel.dae"/><!-- 33 -->
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="right_wheel_joint" type="continuous">          <!-- 34 -->
+    <origin xyz="0 -${wheel_offset_y} 0" rpy="0 0 0"/>       <!-- 35 -->
+    <parent link="base_link"/>                                <!-- 36 -->
+    <child  link="right_wheel_link"/>                         <!-- 37 -->
+    <axis xyz="0 1 0"/>                                       <!-- 38 -->
+  </joint>
+
+  <!--  D.  Computer  -->
+  <link name="computer_link">                                 <!-- 39 -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>                      <!-- 40 -->
+      <geometry>
+        <mesh filename="package://racademy_description/meshes/duckiebot_computer.dae"/><!-- 41 -->
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>                      <!-- 42 -->
+      <geometry>
+        <mesh filename="package://racademy_description/meshes/duckiebot_computer.dae"/><!-- 43 -->
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="computer_joint" type="fixed">                  <!-- 44 -->
+    <parent link="base_link"/>                                <!-- 45 -->
+    <child  link="computer_link"/>                            <!-- 46 -->
+    <origin xyz="0 0 0" rpy="0 0 0"/>                        <!-- 47 -->
+  </joint>
+
+  <!--  E.  Camera  -->
+  <link name="camera_link">                                   <!-- 48 -->
+    <visual>
+      <origin xyz="-0.05 0 -0.055" rpy="0 -0.1 0"/>          <!-- 49 -->
+      <geometry>
+        <mesh filename="package://racademy_description/meshes/duckiebot_camera.dae"/><!-- 50 -->
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="-0.05 0 -0.055" rpy="0 -0.1 0"/>          <!-- 51 -->
+      <geometry>
+        <mesh filename="package://racademy_description/meshes/duckiebot_camera.dae"/><!-- 52 -->
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="camera_joint" type="fixed">                    <!-- 53 -->
+    <parent link="base_link"/>                                <!-- 54 -->
+    <child  link="camera_link"/>                              <!-- 55 -->
+    <origin xyz="0.05 0 0.05" rpy="0 0.1 0"/>                <!-- 56 -->
+  </joint>
+
+</robot>

@@ -9,6 +9,7 @@ setup.py
 ../../build/racademy_py_examples/racademy_py_examples.egg-info/top_level.txt
 ../../build/racademy_py_examples/racademy_py_examples.egg-info/zip-safe
 racademy_py_examples/__init__.py
+racademy_py_examples/simple_parameter.py
 racademy_py_examples/simple_publisher.py
 racademy_py_examples/simple_subscriber.py
 racademy_py_examples.egg-info/PKG-INFO
