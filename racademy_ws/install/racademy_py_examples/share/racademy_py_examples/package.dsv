@@ -4,6 +4,3 @@ source;share/racademy_py_examples/hook/pythonpath.sh
 source;share/racademy_py_examples/hook/ament_prefix_path.ps1
 source;share/racademy_py_examples/hook/ament_prefix_path.dsv
 source;share/racademy_py_examples/hook/ament_prefix_path.sh
-source;../../build/racademy_py_examples/share/racademy_py_examples/hook/pythonpath_develop.ps1
-source;../../build/racademy_py_examples/share/racademy_py_examples/hook/pythonpath_develop.dsv
-source;../../build/racademy_py_examples/share/racademy_py_examples/hook/pythonpath_develop.sh

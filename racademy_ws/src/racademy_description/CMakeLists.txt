@@ -14,8 +14,8 @@ find_package(ament_cmake REQUIRED)
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   install(
-    DIRECTORY meshes urdf
-    DESTINATION share/${PROJECT_NAME}
+  DIRECTORY meshes urdf launch rviz
+  DESTINATION share/${PROJECT_NAME}
   )
   # the following line skips the linter which checks for copyrights
   # comment the line when a copyright and license is added to all source files

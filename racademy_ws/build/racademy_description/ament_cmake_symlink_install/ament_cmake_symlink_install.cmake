@@ -315,8 +315,8 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(DIRECTORY "meshes" "urdf" "DESTINATION" "share/racademy_description")
-ament_cmake_symlink_install_directory("/github/racademy_ws/src/racademy_description" DIRECTORY "meshes" "urdf" "DESTINATION" "share/racademy_description")
+# install(DIRECTORY "meshes" "urdf" "launch" "rviz" "DESTINATION" "share/racademy_description")
+ament_cmake_symlink_install_directory("/github/racademy_ws/src/racademy_description" DIRECTORY "meshes" "urdf" "launch" "rviz" "DESTINATION" "share/racademy_description")
 
 # install(FILES "/github/racademy_ws/build/racademy_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/racademy_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/github/racademy_ws/src/racademy_description" FILES "/github/racademy_ws/build/racademy_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/racademy_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

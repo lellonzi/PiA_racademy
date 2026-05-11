@@ -1,0 +1,23 @@
+<?xml version="1.0"?>                                   <!-- 1 -->
+<robot name="racademy_ws" xmlns:xacro="http://ros.org/wiki/xacro"> <!-- 2 -->
+
+  <!-- 3  High‑friction parameters for the drive wheels ▲ ▲ ▲ -->
+  <gazebo reference="wheel_left_link">                   <!-- 3 -->
+    <mu1>1e15</mu1>                                       <!-- 4 -->
+    <mu2>1e15</mu2>                                       <!-- 5 -->
+    <kp>1e12</kp>                                         <!-- 6 -->
+    <kd>10</kd>                                           <!-- 7 -->
+    <minDepth>0.001</minDepth>                            <!-- 8 -->
+    <maxVel>0.1</maxVel>                                  <!-- 9 -->
+    <fdir1>1 0 0</fdir1>                                  <!-- 10 -->
+  </gazebo>
+
+  <gazebo reference="wheel_right_link"> …same as above… </gazebo>
+
+  <!-- 11  Lower friction on casters so they can swivel freely -->
+  <gazebo reference="caster_front_link">                 <!-- 11 -->
+    <mu1>0.1</mu1><mu2>0.1</mu2><kp>1e6</kp><kd>100</kd>
+    <minDepth>0.001</minDepth><maxVel>1.0</maxVel>
+  </gazebo>
+  <gazebo reference="caster_rear_link"> …identical… </gazebo>
+</robot>

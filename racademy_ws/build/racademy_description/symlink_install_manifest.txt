@@ -5,7 +5,15 @@
 /github/racademy_ws/install/racademy_description/share/racademy_description/meshes/duckiebot_frame_only.dae
 /github/racademy_ws/install/racademy_description/share/racademy_description/meshes/duckiebot_leftwheel.dae
 /github/racademy_ws/install/racademy_description/share/racademy_description/meshes/duckiebot_rightwheel.dae
+/github/racademy_ws/install/racademy_description/share/racademy_description/urdf/macros.xacro
+/github/racademy_ws/install/racademy_description/share/racademy_description/urdf/materials.xacro
+/github/racademy_ws/install/racademy_description/share/racademy_description/urdf/racademy.gazebo.xacro
+/github/racademy_ws/install/racademy_description/share/racademy_description/urdf/racademy.ros2_control.xacro
 /github/racademy_ws/install/racademy_description/share/racademy_description/urdf/racademy.urdf.xacro
+/github/racademy_ws/install/racademy_description/share/racademy_description/urdf/racademy_ws_gazebo.xacro
+/github/racademy_ws/install/racademy_description/share/racademy_description/launch/display.launch.py
+/github/racademy_ws/install/racademy_description/share/racademy_description/launch/gazebo.launch.py
+/github/racademy_ws/install/racademy_description/share/racademy_description/rviz/display.rviz
 /github/racademy_ws/install/racademy_description/share/ament_index/resource_index/package_run_dependencies/racademy_description
 /github/racademy_ws/install/racademy_description/share/ament_index/resource_index/parent_prefix_path/racademy_description
 /github/racademy_ws/install/racademy_description/share/racademy_description/environment/ament_prefix_path.sh

@@ -1,0 +1,37 @@
+[0.022s] Invoking command in '/github/racademy_ws/build/racademy_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/github/racademy_ws/install/racademy_py_examples:/opt/ros/humble /usr/bin/cmake --build /github/racademy_ws/build/racademy_description -- -j8 -l8
+[0.161s] Invoked command in '/github/racademy_ws/build/racademy_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/github/racademy_ws/install/racademy_py_examples:/opt/ros/humble /usr/bin/cmake --build /github/racademy_ws/build/racademy_description -- -j8 -l8
+[0.163s] Invoking command in '/github/racademy_ws/build/racademy_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/github/racademy_ws/install/racademy_py_examples:/opt/ros/humble /usr/bin/cmake --install /github/racademy_ws/build/racademy_description
+[0.169s] -- Install configuration: ""
+[0.170s] -- Execute custom install script
+[0.171s] -- Up-to-date symlink: /github/racademy_ws/install/racademy_description/share/racademy_description/meshes/duckiebotFrame.dae
+[0.171s] -- Up-to-date symlink: /github/racademy_ws/install/racademy_description/share/racademy_description/meshes/duckiebot_camera.dae
+[0.172s] -- Up-to-date symlink: /github/racademy_ws/install/racademy_description/share/racademy_description/meshes/duckiebot_computer.dae
+[0.173s] -- Up-to-date symlink: /github/racademy_ws/install/racademy_description/share/racademy_description/meshes/duckiebot_frame_full.dae
+[0.174s] -- Up-to-date symlink: /github/racademy_ws/install/racademy_description/share/racademy_description/meshes/duckiebot_frame_only.dae
+[0.174s] -- Up-to-date symlink: /github/racademy_ws/install/racademy_description/share/racademy_description/meshes/duckiebot_leftwheel.dae
+[0.174s] -- Up-to-date symlink: /github/racademy_ws/install/racademy_description/share/racademy_description/meshes/duckiebot_rightwheel.dae
+[0.174s] -- Up-to-date symlink: /github/racademy_ws/install/racademy_description/share/racademy_description/urdf/macros.xacro
+[0.174s] -- Up-to-date symlink: /github/racademy_ws/install/racademy_description/share/racademy_description/urdf/materials.xacro
+[0.175s] -- Up-to-date symlink: /github/racademy_ws/install/racademy_description/share/racademy_description/urdf/racademy.gazebo.xacro
+[0.175s] -- Up-to-date symlink: /github/racademy_ws/install/racademy_description/share/racademy_description/urdf/racademy.ros2_control.xacro
+[0.176s] -- Up-to-date symlink: /github/racademy_ws/install/racademy_description/share/racademy_description/urdf/racademy.urdf.xacro
+[0.176s] -- Up-to-date symlink: /github/racademy_ws/install/racademy_description/share/racademy_description/urdf/racademy_ws_gazebo.xacro
+[0.176s] -- Up-to-date symlink: /github/racademy_ws/install/racademy_description/share/racademy_description/launch/display.launch.py
+[0.177s] -- Up-to-date symlink: /github/racademy_ws/install/racademy_description/share/racademy_description/launch/gazebo.launch.py
+[0.178s] -- Up-to-date symlink: /github/racademy_ws/install/racademy_description/share/racademy_description/rviz/display.rviz
+[0.178s] -- Up-to-date symlink: /github/racademy_ws/install/racademy_description/share/ament_index/resource_index/package_run_dependencies/racademy_description
+[0.179s] -- Up-to-date symlink: /github/racademy_ws/install/racademy_description/share/ament_index/resource_index/parent_prefix_path/racademy_description
+[0.181s] -- Up-to-date symlink: /github/racademy_ws/install/racademy_description/share/racademy_description/environment/ament_prefix_path.sh
+[0.182s] -- Up-to-date symlink: /github/racademy_ws/install/racademy_description/share/racademy_description/environment/ament_prefix_path.dsv
+[0.183s] -- Up-to-date symlink: /github/racademy_ws/install/racademy_description/share/racademy_description/environment/path.sh
+[0.184s] -- Up-to-date symlink: /github/racademy_ws/install/racademy_description/share/racademy_description/environment/path.dsv
+[0.184s] -- Up-to-date symlink: /github/racademy_ws/install/racademy_description/share/racademy_description/local_setup.bash
+[0.184s] -- Up-to-date symlink: /github/racademy_ws/install/racademy_description/share/racademy_description/local_setup.sh
+[0.184s] -- Up-to-date symlink: /github/racademy_ws/install/racademy_description/share/racademy_description/local_setup.zsh
+[0.184s] -- Up-to-date symlink: /github/racademy_ws/install/racademy_description/share/racademy_description/local_setup.dsv
+[0.184s] -- Symlinking: /github/racademy_ws/install/racademy_description/share/racademy_description/package.dsv
+[0.188s] -- Up-to-date symlink: /github/racademy_ws/install/racademy_description/share/ament_index/resource_index/packages/racademy_description
+[0.189s] -- Up-to-date symlink: /github/racademy_ws/install/racademy_description/share/racademy_description/cmake/racademy_descriptionConfig.cmake
+[0.189s] -- Up-to-date symlink: /github/racademy_ws/install/racademy_description/share/racademy_description/cmake/racademy_descriptionConfig-version.cmake
+[0.189s] -- Up-to-date symlink: /github/racademy_ws/install/racademy_description/share/racademy_description/package.xml
+[0.203s] Invoked command in '/github/racademy_ws/build/racademy_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/github/racademy_ws/install/racademy_py_examples:/opt/ros/humble /usr/bin/cmake --install /github/racademy_ws/build/racademy_description

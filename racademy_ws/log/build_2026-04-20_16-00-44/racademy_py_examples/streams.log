@@ -1,0 +1,38 @@
+[0.404s] Invoking command in '/github/racademy_ws/build/racademy_py_examples': PYTHONPATH=/github/racademy_ws/build/racademy_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/github/racademy_ws/install/racademy_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /github/racademy_ws/build/racademy_py_examples/build
+[0.531s] running develop
+[0.603s] Removing /github/racademy_ws/install/racademy_py_examples/lib/python3.10/site-packages/racademy-py-examples.egg-link (link to .)
+[0.619s] Invoked command in '/github/racademy_ws/build/racademy_py_examples' returned '0': PYTHONPATH=/github/racademy_ws/build/racademy_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/github/racademy_ws/install/racademy_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /github/racademy_ws/build/racademy_py_examples/build
+[0.621s] Invoking command in '/github/racademy_ws/src/racademy_py_examples': PYTHONPATH=/github/racademy_ws/build/racademy_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/github/racademy_ws/install/racademy_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/racademy_py_examples build --build-base /github/racademy_ws/build/racademy_py_examples/build install --record /github/racademy_ws/build/racademy_py_examples/install.log --single-version-externally-managed install_data --force
+[0.724s] running egg_info
+[0.725s] writing ../../build/racademy_py_examples/racademy_py_examples.egg-info/PKG-INFO
+[0.725s] writing dependency_links to ../../build/racademy_py_examples/racademy_py_examples.egg-info/dependency_links.txt
+[0.725s] writing entry points to ../../build/racademy_py_examples/racademy_py_examples.egg-info/entry_points.txt
+[0.725s] writing requirements to ../../build/racademy_py_examples/racademy_py_examples.egg-info/requires.txt
+[0.726s] writing top-level names to ../../build/racademy_py_examples/racademy_py_examples.egg-info/top_level.txt
+[0.727s] reading manifest file '../../build/racademy_py_examples/racademy_py_examples.egg-info/SOURCES.txt'
+[0.728s] writing manifest file '../../build/racademy_py_examples/racademy_py_examples.egg-info/SOURCES.txt'
+[0.728s] running build
+[0.729s] running build_py
+[0.729s] copying racademy_py_examples/simple_parameter.py -> /github/racademy_ws/build/racademy_py_examples/build/lib/racademy_py_examples
+[0.730s] running install
+[0.730s] running install_lib
+[0.731s] creating /github/racademy_ws/install/racademy_py_examples/lib/python3.10/site-packages/racademy_py_examples
+[0.731s] copying /github/racademy_ws/build/racademy_py_examples/build/lib/racademy_py_examples/__init__.py -> /github/racademy_ws/install/racademy_py_examples/lib/python3.10/site-packages/racademy_py_examples
+[0.731s] copying /github/racademy_ws/build/racademy_py_examples/build/lib/racademy_py_examples/simple_subscriber.py -> /github/racademy_ws/install/racademy_py_examples/lib/python3.10/site-packages/racademy_py_examples
+[0.733s] copying /github/racademy_ws/build/racademy_py_examples/build/lib/racademy_py_examples/simple_publisher.py -> /github/racademy_ws/install/racademy_py_examples/lib/python3.10/site-packages/racademy_py_examples
+[0.733s] copying /github/racademy_ws/build/racademy_py_examples/build/lib/racademy_py_examples/simple_parameter.py -> /github/racademy_ws/install/racademy_py_examples/lib/python3.10/site-packages/racademy_py_examples
+[0.734s] byte-compiling /github/racademy_ws/install/racademy_py_examples/lib/python3.10/site-packages/racademy_py_examples/__init__.py to __init__.cpython-310.pyc
+[0.735s] byte-compiling /github/racademy_ws/install/racademy_py_examples/lib/python3.10/site-packages/racademy_py_examples/simple_subscriber.py to simple_subscriber.cpython-310.pyc
+[0.736s] byte-compiling /github/racademy_ws/install/racademy_py_examples/lib/python3.10/site-packages/racademy_py_examples/simple_publisher.py to simple_publisher.cpython-310.pyc
+[0.737s] byte-compiling /github/racademy_ws/install/racademy_py_examples/lib/python3.10/site-packages/racademy_py_examples/simple_parameter.py to simple_parameter.cpython-310.pyc
+[0.738s] running install_data
+[0.738s] copying resource/racademy_py_examples -> /github/racademy_ws/install/racademy_py_examples/share/ament_index/resource_index/packages
+[0.739s] copying package.xml -> /github/racademy_ws/install/racademy_py_examples/share/racademy_py_examples
+[0.740s] running install_egg_info
+[0.741s] Copying ../../build/racademy_py_examples/racademy_py_examples.egg-info to /github/racademy_ws/install/racademy_py_examples/lib/python3.10/site-packages/racademy_py_examples-0.0.0-py3.10.egg-info
+[0.745s] running install_scripts
+[0.755s] Installing simple_parameter script to /github/racademy_ws/install/racademy_py_examples/lib/racademy_py_examples
+[0.756s] Installing simple_publisher script to /github/racademy_ws/install/racademy_py_examples/lib/racademy_py_examples
+[0.756s] Installing simple_subscriber script to /github/racademy_ws/install/racademy_py_examples/lib/racademy_py_examples
+[0.757s] writing list of installed files to '/github/racademy_ws/build/racademy_py_examples/install.log'
+[0.773s] Invoked command in '/github/racademy_ws/src/racademy_py_examples' returned '0': PYTHONPATH=/github/racademy_ws/build/racademy_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/github/racademy_ws/install/racademy_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/racademy_py_examples build --build-base /github/racademy_ws/build/racademy_py_examples/build install --record /github/racademy_ws/build/racademy_py_examples/install.log --single-version-externally-managed install_data --force
